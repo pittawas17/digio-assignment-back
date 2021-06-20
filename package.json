@@ -1,15 +1,22 @@
 {
-  "name": "digio-assignment-back",
-  "version": "1.0.0",
-  "description": "digio assignment: XO website - backend",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.7"
-  }
+    "name": "digio-assignment-back",
+    "version": "1.0.0",
+    "description": "digio assignment: XO website - backend",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "chalk": "^4.1.1",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mongodb": "^3.6.9",
+        "mongoose": "^5.12.14",
+        "node-datetime": "^2.1.2",
+        "nodemon": "^2.0.7"
+    }
 }
